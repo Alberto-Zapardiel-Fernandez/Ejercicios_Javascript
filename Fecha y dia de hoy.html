@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+let fecha=new Date(),
+    diaDeHoy=fecha.getDay(),
+    dia=fecha.getDate(),
+    mes=(fecha.getMonth()+1),
+    year=fecha.getFullYear()
+switch (diaDeHoy){
+    case 2 :
+    diaDeHoy='Martes';
+    break;
+}
+    let string=`Hoy es ${diaDeHoy}  '<br>' ${dia}-${mes}-${year}`
+    
+document.write(string)
+</script>
+
+</body>
+</html>
