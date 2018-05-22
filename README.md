@@ -13,6 +13,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 2. El archivo // Fecha y dia de hoy.html
+
 +Lo que requiere es Confeccionar una función que retorne una cadena con el día, mes y año actual. 
 +Utilizar una plantilla de cadena de caracteres para generarla.
 
